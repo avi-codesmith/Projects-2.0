@@ -10,12 +10,49 @@
       background-color: #222;
       color: #fff;
       font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input[type="submit"] {
+      background-color: #000;
+      padding: 0.6rem 2rem;
+      border: none;
+      color: #fff;
+      border-radius: 0.4rem;
+    }
+    button {
+      background-color: #000;
+      padding: 0.6rem 2rem;
+      border: none;
+      color: #fff;
+      border-radius: 0.4rem;
+      display: none;
+      margin: 0 auto;
+    }
+    input {
+      padding: 0.6rem 2rem;
+      border-radius: 0.4rem;
+      border: none;
     }
   </style>
   <body>
     <div class="container">
       <h1>Guess My Number</h1>
-      <form></form>
+      <h5 class="warn">Enter number Between (Between 1 to 20)</h5>
+      <form>
+        <input type="number" class="number" />
+        <input type="submit" value="Guess" class="btn" />
+      </form>
+      <p>Previous Guesses: <span class="guess"></span></p>
+      <p>Remaining Guesses: <span class="r-guess"></span></p>
+      <button class="again">Again</button>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
