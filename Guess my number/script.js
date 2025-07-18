@@ -70,3 +70,18 @@ form.addEventListener("submit", function (e) {
 
   input.value = "";
 });
+
+// function foo() {
+//   return "hello";
+// }
+
+// const result = foo();
+// console.log(result);
+
+const array = [1, 2, 3, 4, 5];
+
+const sum = array.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 1);
+
+console.log(sum);
