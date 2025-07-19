@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avi-codesmith</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      padding: 40px 20px;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    input {
+      padding: 14px 20px;
+      font-size: 18px;
+      width: 300px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    button {
+      padding: 14px 24px;
+      font-size: 18px;
+      margin-left: 10px;
+      border: none;
+      background-color: #0077ff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #005fd1;
+    }
+
+    .card {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 24px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 18px;
+      margin: 6px 0;
+      color: #333;
+    }
+
+    .stats {
+      margin: 16px 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .stats h3 {
+      font-size: 20px;
+      margin: 0;
+      color: #444;
+    }
+  </style>
+  <body bgcolor="#333">
+    <input type="text" placeholder="Enter GitHub username" />
+    <button>Search</button>
+    <div class="result"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
