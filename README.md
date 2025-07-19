@@ -10,6 +10,7 @@
 | Guess my Number    | [Link](https://melodious-puffpuff-f8f831.netlify.app/)                    |
 | Key checker    | [Link](https://dancing-pegasus-488e1c.netlify.app/)                    |
 | Infinite Bg Changer    | [Link](https://leafy-wisp-bafaf5.netlify.app/)                    |
+| API (github project)    | [Link](https://tranquil-brioche-1b2398.netlify.app/)                    |
 
 
 ![download](https://github.com/user-attachments/assets/10ba2117-22db-4ba8-a987-33f7af1f9ddf)
